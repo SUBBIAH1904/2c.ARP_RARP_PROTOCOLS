@@ -44,7 +44,7 @@ REG NO:
  s.send(ip.encode())
  print("MAC Address",s.recv(1024).decode()
 ```
-### OUPUT - ARP:
+### OUTPUT - ARP:
 ## Client:
 ![WhatsApp Image 2024-03-05 at 8 05 43 PM](https://github.com/SUBBIAH1904/2c.ARP_RARP_PROTOCOLS/assets/147473604/53e3a0aa-1b41-4680-820f-ca049ba9c5b7)
 ## Server:
@@ -76,7 +76,7 @@ while True:
  s.send(ip.encode())
  print("Logical Address",s.recv(1024).decode())
 ```
-### OUPUT -RARP
+### OUTPUT -RARP
 ### Client:
 ![WhatsApp Image 2024-03-05 at 8 05 43 PM](https://github.com/SUBBIAH1904/2c.ARP_RARP_PROTOCOLS/assets/147473604/302fb360-8d1f-4f09-9415-75337d5a611a)
 ### Server:
